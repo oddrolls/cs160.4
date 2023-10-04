@@ -1,0 +1,10 @@
+Breaking down Time and Space Complexity for CamelCase - 
+
+TIME COMPLEXITY: 
+The overall time complexity of CamelCase is O(n). This is because most of the operations in the function have constant time - initializing a variable in line 24 and
+using an if statement to determine if the letter is uppercase at line 28. The only thing that would affect our time complexity here is our for loop which would be O(n). 1*n*1*1...
+equals n, therefore the time complexity is O(n), or linear time.
+
+SPACE COMPLEXITY:
+Since there is no auxilary space needed to compute CamelCase or extra calls to the call-stack like you would have in a recursive version of this algorithm, the space complexity
+of CamelCase is O(1), or constant time.
