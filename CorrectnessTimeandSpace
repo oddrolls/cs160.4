@@ -1,0 +1,10 @@
+TIME AND SPACE COMPLEXITY OF CORRECTNESS CODE
+
+TIME COMPLEXITY:
+The overall time complexity of this code is O(n^2). Like CamelCase, most of the operations in this code are constant - initializing value and j, updating the list and printing the list.
+The two major time complexity aspects are the for loop and the while loop. Pretty much all while loops can be expressed as for loops, so the while loop and the for loop both count as O(n).
+However, they are nested, which makes O(n)*O(n), resulting in O(n^2) as opposed to two un-nested for loops which would be O(2n)=O(n).
+
+SPACE COMPLEXITY: 
+Similar to CamelCase, all of the operations are done within the original array that we created, and there are no extra calls made
+to the call stack. Thus, correctness needs no auxilary space, and the space complexity is O(1), or constant.
